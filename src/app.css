@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+/* typography */
+
+@layer base {
+  h1 {
+    @apply text-8xl mb-4 text-stone-700 font-extrabold;
+  }
+
+  h2 {
+    @apply text-6xl mb-4 text-stone-700 font-bold;
+  }
+
+  h3 {
+    @apply text-4xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+}
