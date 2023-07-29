@@ -9,7 +9,7 @@
       text-transparent bg-clip-text font-me ium bg-gradient-to-br
       from-white to-rose-100 p-5 drop-shadow-xl"
     >
-      Aliquipet cupidatat non elit ea vexcepteur anim ut esse oluptate.
+      Embrace the AI Revolution
     </h1>
 
     <p
@@ -17,8 +17,10 @@
       text-transparent bg-clip-text font-me ium bg-gradient-to-br
       from-white/90 to-stone-300/90 p-5 drop-shadow-xl"
     >
-      Incididunt cupidatat qui excepteur anim ut esse cupidatat non elit ea
-      vexcepteur adipisicing eu veniam ad esse. You're welcome, devs.
+      The AI revolution isn't coming; it's here. And with us, you won't just be
+      part of it—you'll be leading it. Let us help you integrate cutting-edge,
+      personalized chat assistants into your business. Because the future is
+      conversational, and the conversation starts with you.
     </p>
   </div>
   <div class="flex w-fit mx-auto gap-6 py-8">

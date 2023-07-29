@@ -7,18 +7,19 @@
     <h1
       class="text-6xl font-bold
       text-transparent bg-clip-text bg-gradient-to-br
-      from-white to-rose-100 p-5 drop-shadow-xl"
+      from-stone-800 to-rose-800 via-amber-900 dark:from-white dark:to-rose-100 p-5 drop-shadow-xl mb-0 pb-2"
     >
-      Aliquipet cupidatat non elit ea vexcepteur anim ut esse oluptate.
+      The future of computing is conversational
     </h1>
 
     <p
       class="text-2xl font-light
       text-transparent bg-clip-text font-me ium bg-gradient-to-br
-      from-white/90 to-stone-300/90 p-5 drop-shadow-xl"
+      from-black/90 to-stone-800/90
+      dark:from-white/90 dark:to-stone-300/90 p-5 drop-shadow-xl"
     >
-      Incididunt cupidatat qui excepteur anim ut esse cupidatat non elit ea
-      vexcepteur adipisicing eu veniam ad esse. You're welcome, devs.
+      We believe in the power of language, dialogue, and AI—not just for your
+      customers, but for everyone.
     </p>
   </div>
   <div class="flex w-fit mx-auto gap-6 py-8">

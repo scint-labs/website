@@ -7,15 +7,14 @@
       text-transparent bg-clip-text font-me ium bg-gradient-to-br
       from-white to-rose-100 p-5 drop-shadow-xl"
     >
-      Aliquipet cupidatat non elit ea vexcepteur anim ut esse oluptate.
+      Your journey to to AI transformation.
     </h2>
     <p
-      class="text-2xl font-light
-      text-transparent bg-clip-text font-me ium bg-gradient-to-br
-      from-white/90 to-stone-300/90 p-5 drop-shadow-xl"
+      class="text-2xl light
+      text-transparent bg-clip-text font-me ium bg-gradient-to-br from-black/90 to-stone-800/90
+      dark:from-white/90 dark:to-stone-300/90 p-5 drop-shadow-xl"
     >
-      Incididunt cupidatat qui excepteur anim ut esse cupidatat non elit ea
-      vexcepteur adipisicing eu veniam ad esse. You're welcome, devs.
+      Personalized, engineered, enabled.
     </p>
   </div>
 
@@ -50,20 +49,19 @@
         </svg>
       </span>
       <h3 class="mt-5 text-2xl font-semibold text-center text-white">
-        1. Consectetur adipisicing elit
+        1. We collaborate to craft your personalized solution.
       </h3>
       <p class="mt-2 text-lg leading-relaxed text-center text-zinc-300">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod
-        tempor incididunt.
+        Our journey begins with you. We take the time to understand your needs,
+        goals, and the unique challenges your business faces so we can carefully
+        tailor an assistant to help you unlock your potential.
       </p>
     </div>
 
-    <!-- Step -->
     <div class="w-full">
       <span
         class="flex justify-center items-center mx-auto bg-gradient-to-r rounded-3xl shadow-xl w-18 h-18 from-zinc-600 to-zinc-700"
       >
-        <!-- TablerIcon name: artboard -->
         <svg
           class="w-10 h-10 text-zinc-300"
           xmlns="http://www.w3.org/2000/svg"
@@ -90,11 +88,12 @@
       </span>
 
       <h3 class="mt-5 text-2xl font-semibold text-center text-white">
-        2. Do eius mod tempor
+        2. We engineer an assistant suited to your needs.
       </h3>
       <p class="mt-2 text-lg leading-relaxed text-center text-zinc-300">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod
-        tempor incididunt.
+        Once we've defined your personalized solution, we build and integrate
+        your custom assistant, connecting it to your existing data, ensuring it
+        understands your business as well as you do.
       </p>
     </div>
 
@@ -123,11 +122,12 @@
         </svg>
       </span>
       <h3 class="mt-5 text-2xl font-semibold text-center text-white">
-        3. Consectetur adipisicing
+        3. We help you maximize your new assistant's potential.
       </h3>
       <p class="mt-2 text-lg leading-relaxed text-center text-zinc-300">
-        lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod
-        tempor incididunt.
+        We give you ongoing support, helping you integrate your new assistant
+        into your workflows, training you on how to use it effectively, and
+        ensuring it continuously evolves with your business.
       </p>
     </div>
   </div>

@@ -17,9 +17,9 @@
   <main>
     <Hero />
 
-    <div class="my-96" />
+    <!--<div class="my-96" /> -->
 
-    <Partners />
+    <!--<Partners /> -->
 
     <div class="my-96" />
 
@@ -33,9 +33,9 @@
 
     <FeaturedWork />
 
-    <div class="my-96" />
+    <!--<div class="my-96" />-->
 
-    <Testimonials />
+    <!--<Testimonials />-->
 
     <div class="my-96" />
 

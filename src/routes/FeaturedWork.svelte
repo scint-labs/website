@@ -12,20 +12,14 @@
       text-transparent bg-clip-text font-me ium bg-gradient-to-br
       from-white to-rose-100 p-5 drop-shadow-xl"
     >
-      There's nothing artficial about these case studies
+      The impact of an AI assistant tailored to your needs.
     </h2>
   </div>
   <div class="mt-24 lg:mt-16">
     <div class="relative mx-auto max-w-lg lg:max-w-none lg:mx-none">
       <div
         class="lg:rounded-3xl rounded-t-3xl shadow-xl relative w-full lg:pt-23/50 lg:w-9/10 bg-cover bg-center h-64 lg:h-full bg-[url({FeaturedWorkImg01})]"
-      >
-        <p
-          class="inline-flex justify-center items-center py-2 px-6 mt-4 ml-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full sm:ml-8 lg:hidden from-zinc-800 to-zinc-900"
-        >
-          Lorem ipsum
-        </p>
-      </div>
+      />
       <div
         class="lg:rounded-3xl rounded-b-3xl shadow-xl h-auto relative w-full bottom-0 right-0 z-20 block p-6 sm:p-8 lg:p-12 bg-zinc-700 lg:absolute lg:-bottom-25 lg:w-1/3 lg:h-full"
       >
@@ -34,14 +28,16 @@
             <p
               class="inline-flex justify-center items-center py-2 px-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-zinc-800 to-zinc-900"
             >
-              Lorem ipsum
+              Entrepreneur
             </p>
           </div>
           <div class="flex flex-wrap w-full">
-            <h3 class="text-3xl font-bold text-white lg:text-4xl">Nedia</h3>
+            <h3 class="text-3xl font-bold text-white lg:text-4xl">Mei</h3>
             <p class="mt-2 text-base lg:mt-4 text-neutral-300 md:text-lg">
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-              Vivamus magna justo, lacinia eget sed, convallis at tellus.
+              Scint transforms Mei's online store by providing real-time sales
+              tracking and customer feedback analysis. It not only helps her
+              understand her sales trends but also offers actionable insights to
+              improve her products based on customer reviews.
             </p>
           </div>
           <div class="mt-8 xl:mt-4">
@@ -67,13 +63,7 @@
         class="lg:rounded-3xl rounded-t-3xl shadow-xl relative w-full lg:pt-23/50 lg:w-9/10 lg:ml-auto bg-cover bg-center h-64 lg:h-full"
         data-background-image={FeaturedWorkImg02}
         style="background-image: url({FeaturedWorkImg02});"
-      >
-        <p
-          class="inline-flex justify-center items-center py-2 px-6 mt-4 ml-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full sm:ml-8 lg:hidden from-zinc-800 to-zinc-900"
-        >
-          App
-        </p>
-      </div>
+      />
       <div
         class="lg:rounded-3xl rounded-b-3xl shadow-xl h-auto relative w-full bottom-0 left-0 z-20 block p-6 sm:p-8 lg:p-12 bg-zinc-700 lg:h-full lg:absolute lg:-bottom-25 lg:w-1/3"
       >
@@ -82,14 +72,15 @@
             <p
               class="inline-flex justify-center items-center py-2 px-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-zinc-800 to-zinc-900"
             >
-              Lorem ipsum
+              Academic
             </p>
           </div>
           <div class="flex flex-wrap w-full">
-            <h3 class="text-3xl font-bold text-white lg:text-4xl">Sigma</h3>
+            <h3 class="text-3xl font-bold text-white lg:text-4xl">Priya</h3>
             <p class="mt-2 text-base lg:mt-4 text-neutral-300 lg:text-lg">
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-              Vivamus magna justo, lacinia eget sed, convallis at tellus.
+              For Priya, Scint is like a personalized academic assistant. It
+              manages her study schedule, suggests ideal timelines for
+              assignments, and even finds useful resources for her papers.
             </p>
           </div>
           <div class="mt-8 xl:mt-4">
@@ -114,13 +105,7 @@
         class="lg:rounded-3xl rounded-t-3xl shadow-xl relative w-full lg:pt-23/50 lg:w-9/10 bg-cover bg-center h-64 lg:h-full"
         data-background-image={FeaturedWorkImg03}
         style="background-image: url({FeaturedWorkImg03});"
-      >
-        <p
-          class="inline-flex justify-center items-center py-2 px-6 mt-4 ml-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full sm:ml-8 lg:hidden from-zinc-800 to-zinc-900"
-        >
-          Lorem ipsum
-        </p>
-      </div>
+      />
       <div
         class="lg:rounded-3xl rounded-b-3xl shadow-xl h-auto relative w-full bottom-0 right-0 z-20 block p-6 sm:p-8 lg:p-12 bg-zinc-700 lg:absolute lg:-bottom-25 lg:w-1/3 lg:h-full"
       >
@@ -129,14 +114,15 @@
             <p
               class="inline-flex justify-center items-center py-2 px-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-zinc-800 to-zinc-900"
             >
-              Lorem ipsum
+              Real-estate Agent
             </p>
           </div>
           <div class="flex flex-wrap w-full">
-            <h3 class="text-3xl font-bold text-white lg:text-4xl">Sastastic</h3>
+            <h3 class="text-3xl font-bold text-white lg:text-4xl">Jake</h3>
             <p class="mt-2 text-base lg:mt-4 text-neutral-300 md:text-lg">
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-              Vivamus magna justo, lacinia eget sed, convallis at tellus.
+              Scint empowers Jake by keeping him updated about market trends and
+              his client portfolio. It not only spots potential opportunities
+              but also suggests proactive actions to make the most of them.
             </p>
           </div>
           <div class="mt-8 xl:mt-4">
@@ -162,13 +148,7 @@
         class="lg:rounded-3xl rounded-t-3xl shadow-xl relative w-full lg:pt-23/50 lg:w-9/10 lg:ml-auto bg-cover bg-center h-64 lg:h-full"
         data-background-image={FeaturedWorkImg04}
         style="background-image: url({FeaturedWorkImg04});"
-      >
-        <p
-          class="inline-flex justify-center items-center py-2 px-6 mt-4 ml-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full sm:ml-8 lg:hidden from-zinc-800 to-zinc-900"
-        >
-          Lorem ipsum
-        </p>
-      </div>
+      />
       <div
         class="lg:rounded-3xl rounded-b-3xl shadow-xl h-auto relative w-full bottom-0 left-0 z-20 block p-6 sm:p-8 lg:p-12 bg-zinc-700 lg:h-full lg:absolute lg:-bottom-25 lg:w-1/3"
       >
@@ -177,14 +157,16 @@
             <p
               class="inline-flex justify-center items-center py-2 px-6 text-xs font-medium tracking-wide text-white bg-gradient-to-r rounded-r-full rounded-tl-full from-zinc-800 to-zinc-900"
             >
-              Lorem ipsum
+              Freelance Designer
             </p>
           </div>
           <div class="flex flex-wrap w-full">
-            <h3 class="text-3xl font-bold text-white lg:text-4xl">Pantone</h3>
+            <h3 class="text-3xl font-bold text-white lg:text-4xl">Kim</h3>
             <p class="mt-2 text-base lg:mt-4 text-neutral-300 lg:text-lg">
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-              Vivamus magna justo, lacinia eget sed, convallis at tellus.
+              Scint helps Kim stay on top of her project deadlines and keeps her
+              creativity flowing by suggesting trending design styles. It helps
+              her plan her work efficiently and stay updated with the design
+              world.
             </p>
           </div>
           <div class="mt-8 xl:mt-4">

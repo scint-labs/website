@@ -1,6 +1,7 @@
 <script lang="ts">
   let buttonProps = {
     class: [$$restProps.class],
+    // href: [$$restProps.href],
   }
 </script>
 
@@ -8,9 +9,9 @@
 
 <style lang="postcss">
   a {
-    @apply text-sm w-auto py-3 px-5 rounded-2xl shadow-xl shadow-emerald-200/10 transition duration-300 ease-in-out bg-gradient-to-br from-sky-400 to-emerald-500 font-semibold text-black;
+    @apply text-sm text-stone-100 font-semibold w-auto py-3 px-5 rounded-xl bg-gradient-to-b from-indigo-500/70 via-violet-700/80 to-rose-800/50 transition-all ease-in-out duration-500;
   }
   a:hover {
-    @apply shadow-red-300/20 shadow-2xl from-rose-300 to-emerald-500 font-semibold;
+    @apply bg-gradient-to-b from-indigo-500/80 to-rose-800 transition-all ease-in-out duration-500;
   }
 </style>
