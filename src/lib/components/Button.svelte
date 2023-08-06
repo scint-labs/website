@@ -5,13 +5,13 @@
   }
 </script>
 
-<a href="./signup"><slot /></a>
+<a href="#"><span><slot /></span></a>
 
 <style lang="postcss">
   a {
-    @apply text-sm text-stone-100 font-semibold w-auto py-3 px-5 rounded-xl bg-gradient-to-b from-indigo-500/70 via-violet-700/80 to-rose-800/50 transition-all ease-in-out duration-500;
+    @apply shadow-sm shadow-rose-950/40 text-sm text-stone-100 font-semibold w-auto bg-gradient-to-b from-violet-500/60 to-rose-500/60 py-3 px-5 rounded-xl transition-all ease-in-out duration-500;
   }
   a:hover {
-    @apply bg-gradient-to-b from-indigo-500/80 to-rose-800 transition-all ease-in-out duration-500;
+    @apply shadow-lg shadow-rose-700/30 bg-gradient-to-b from-sky-500/50 via-fuchsia-600/80 to-rose-500 transition-all ease-in-out duration-500;
   }
 </style>

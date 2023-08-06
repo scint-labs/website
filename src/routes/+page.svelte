@@ -1,5 +1,7 @@
 <script lang="ts">
   import Hero from './Hero.svelte'
+
+  import HeroBg from '$lib/images/hero-bg.jpg'
   import Partners from './Partners.svelte'
   import WhatWeDo from './WhatWeDo.svelte'
   import Process from './Process.svelte'
@@ -13,8 +15,8 @@
   <meta name="Buftype" content="" />
 </svelte:head>
 
-<section>
-  <main>
+<section class="w-full mx-auto">
+  <main class="w-full mx-auto">
     <Hero />
 
     <!--<div class="my-96" /> -->

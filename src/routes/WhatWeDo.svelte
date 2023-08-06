@@ -2,9 +2,12 @@
   import WhatWeDoImg01 from '$lib/images/what-we-do-image-01.jpg'
   import WhatWeDoImg02 from '$lib/images/what-we-do-image-02.jpg'
   import WhatWeDoImg03 from '$lib/images/what-we-do-image-03.jpg'
+  import BgImage from '$lib/images/bg.png'
 </script>
 
-<section>
+<section
+  style="background: url({BgImage}); background-size: 60%; background-repeat: no-repeat; background-position: bottom left;"
+>
   <div
     class="mx-auto max-w-xl text-center md:max-w-2xl lg:text-left lg:max-w-screen-xl"
   >

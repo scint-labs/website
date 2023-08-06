@@ -1,18 +1,47 @@
 <script lang="ts">
-  import Button from '$lib/components/Button.svelte'
 </script>
 
 <section class="w-full my-12">
-  <div class="flex flex-col text-center max-w-4xl mx-auto">
+  <div class="flex flex-col text-center max-w-4xl pt-[55vh] mx-auto">
     <h1
       class="text-6xl font-bold
       text-transparent bg-clip-text bg-gradient-to-br
       from-stone-800 to-rose-800 via-amber-900 dark:from-white dark:to-rose-100 p-5 drop-shadow-xl mb-0 pb-2"
     >
-      The future of computing is conversational
+      The future of computing is
     </h1>
-
-    <p
+    <div
+      class="relative max-w-xl flex mx-auto gap-6 py-8"
+      style="filter: saturate(1.75);"
+    >
+      <input
+        id="input"
+        type="text"
+        placeholder=""
+        autocomplete="off"
+        value="Conversational."
+        class="h-14 w-full pl-5 text-2xl font-medium focus:outline-none text-stone-100 placeholder-white/50 bg-gradient-to-b from-fuchsia-600/5 to-rose-500/5 border border-1 border-white/20 rounded-full"
+      />
+      <div class="absolute bottom-11 right-3 flex max-w-10">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="31.875"
+          height="31.8906"
+        >
+          <g>
+            <rect height="31.8906" opacity="0" width="31.875" x="0" y="0" />
+            <path
+              d="M15.9375 31.875C24.6562 31.875 31.875 24.6406 31.875 15.9375C31.875 7.21875 24.6406 0 15.9219 0C7.21875 0 0 7.21875 0 15.9375C0 24.6406 7.23438 31.875 15.9375 31.875ZM15.9531 24C15.25 24 14.7344 23.5 14.7344 22.7812L14.7344 14.7656L14.875 11.3438L13.2656 13.2812L11.3594 15.2031C11.1406 15.4219 10.8281 15.5625 10.5 15.5625C9.82812 15.5625 9.32812 15.0469 9.32812 14.3906C9.32812 14.0469 9.42188 13.7656 9.64062 13.5469L15.0156 8.1875C15.3438 7.85938 15.6094 7.73438 15.9531 7.73438C16.3125 7.73438 16.5938 7.875 16.9062 8.1875L22.2656 13.5469C22.4844 13.7656 22.6094 14.0469 22.6094 14.3906C22.6094 15.0469 22.0938 15.5625 21.4219 15.5625C21.0781 15.5625 20.7812 15.4375 20.5625 15.2031L18.6719 13.2812L17.0312 11.3281L17.1719 14.7656L17.1719 22.7812C17.1719 23.5 16.6719 24 15.9531 24Z"
+              fill="#ffffff"
+              fill-opacity="0.35"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!--<p
       class="text-2xl font-light
       text-transparent bg-clip-text font-me ium bg-gradient-to-br
       from-black/90 to-stone-800/90
@@ -20,9 +49,6 @@
     >
       We believe in the power of language, dialogue, and AI—not just for your
       customers, but for everyone.
-    </p>
-  </div>
-  <div class="flex w-fit mx-auto gap-6 py-8">
-    <Button>Get started</Button>
+    </p>-->
   </div>
 </section>

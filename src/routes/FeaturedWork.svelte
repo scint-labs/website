@@ -43,7 +43,7 @@
           <div class="mt-8 xl:mt-4">
             <a
               class="inline-flex relative justify-center items-center px-8 w-auto h-12 text-base font-medium leading-snug text-white md:h-14 group"
-              href="case-study.html"
+              href="#"
             >
               <span
                 class="block absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-r rounded-full transition-all ease-in-out duration-250 from-zinc-800 to-zinc-900 md:w-14 md:group-hover:w-full"
@@ -86,7 +86,7 @@
           <div class="mt-8 xl:mt-4">
             <a
               class="inline-flex relative justify-center items-center px-8 w-auto h-12 text-base font-medium leading-snug text-white md:h-14 group"
-              href="case-study.html"
+              href="#"
             >
               <span
                 class="block absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-r rounded-full transition-all ease-in-out duration-250 from-zinc-800 to-zinc-900 md:w-14 md:group-hover:w-full"
@@ -128,7 +128,7 @@
           <div class="mt-8 xl:mt-4">
             <a
               class="inline-flex relative justify-center items-center px-8 w-auto h-12 text-base font-medium leading-snug text-white md:h-14 group"
-              href="case-study.html"
+              href="#"
             >
               <span
                 class="block absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-r rounded-full transition-all ease-in-out duration-250 from-zinc-800 to-zinc-900 md:w-14 md:group-hover:w-full"
@@ -172,7 +172,7 @@
           <div class="mt-8 xl:mt-4">
             <a
               class="inline-flex relative justify-center items-center px-8 w-auto h-12 text-base font-medium leading-snug text-white md:h-14 group"
-              href="case-study.html"
+              href="#"
             >
               <span
                 class="block absolute top-0 left-0 z-10 w-full h-full bg-gradient-to-r rounded-full transition-all ease-in-out duration-250 from-zinc-800 to-zinc-900 md:w-14 md:group-hover:w-full"

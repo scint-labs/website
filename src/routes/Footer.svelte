@@ -9,10 +9,7 @@
   <div class="flex justify-between w-full max-w-screen-lg mx-auto">
     <div class="flex flex-col justify-between">
       <div class="flex">
-        <a
-          href="index.html"
-          class="block text-2xl font-black md:hidden lg:block group"
-        >
+        <a href="#" class="block text-2xl font-black md:hidden lg:block group">
           <img
             src={LogoMark}
             alt="buftype logo icon"
@@ -29,7 +26,7 @@
       <div class="flex flex-row gap-2">
         <a
           class="flex justify-center items-center w-5 h-5 rounded-full transition duration-300 ease-in-out hover:text-dark-300 text-zinc-400/80"
-          href="Instagram"
+          href="#"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +48,7 @@
         </a>
         <a
           class="flex justify-center items-center w-5 h-5 rounded-full transition duration-300 ease-in-out hover:text-dark-300 text-zinc-400/80"
-          href="Facebook"
+          href=""
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +70,7 @@
         </a>
         <a
           class="flex justify-center items-center w-5 h-5 rounded-full transition duration-300 ease-in-out hover:text-dark-300 text-zinc-400/80"
-          href="Twitter"
+          href="#"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -101,19 +98,19 @@
         <h6 class="text-neutral-400 font-sm font-medium">Product</h6>
         <ul class="mt-3 space-y-1 text-zinc-400/80 text-sm">
           <li class="py-1">
-            <a href="index.html">Features</a>
+            <a href="#">Features</a>
           </li>
 
           <li class="py-1">
-            <a href="services.html">Pricing</a>
+            <a href="#">Pricing</a>
           </li>
 
           <li class="py-1">
-            <a href="services.html">Changelog</a>
+            <a href="#">Changelog</a>
           </li>
 
           <li class="py-1">
-            <a href="services.html">Roadmap</a>
+            <a href="#">Roadmap</a>
           </li>
         </ul>
       </div>
@@ -122,15 +119,15 @@
         <h6 class="text-neutral-400 font-sm font-medium">Company</h6>
         <ul class="mt-3 space-y-1 text-zinc-400/80 text-sm">
           <li class="py-1">
-            <a href="index.html">About</a>
+            <a href="#">About</a>
           </li>
 
           <li class="py-1">
-            <a href="index.html">Blog</a>
+            <a href="#">Blog</a>
           </li>
 
           <li class="py-1">
-            <a href="services.html">Customers</a>
+            <a href="#">Customers</a>
           </li>
         </ul>
       </div>
@@ -139,15 +136,15 @@
         <h6 class="text-neutral-400 font-sm font-medium">Resources</h6>
         <ul class="mt-3 space-y-1 text-zinc-400/80 text-sm">
           <li class="py-1">
-            <a href="index.html">Contact</a>
+            <a href="#">Contact</a>
           </li>
 
           <li class="py-1">
-            <a href="services.html">Feedback</a>
+            <a href="#">Feedback</a>
           </li>
 
           <li class="py-1">
-            <a href="services.html">Terms of Service</a>
+            <a href="#">Terms of Service</a>
           </li>
         </ul>
       </div>

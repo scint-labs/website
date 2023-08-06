@@ -15,7 +15,7 @@
 
   <div class="mx-auto mt-12 max-w-screen-lg lg:mt-14">
     <div class="grid grid-cols-2 gap-4 md:gap-6 sm:grid-cols-3">
-      <a href="case-study.html" class="overflow-hidden">
+      <a href="#" class="overflow-hidden">
         <div
           class="flex justify-center items-center w-full h-36 rounded-3xl transition duration-200 ease-in-out bg-zinc-800/80 hover:bg-zinc-800 hover:text-white text-zinc-300"
         >
@@ -39,7 +39,7 @@
       </a>
 
       <!-- Item -->
-      <a href="case-study.html" class="overflow-hidden">
+      <a href="#" class="overflow-hidden">
         <div
           class="flex justify-center items-center w-full h-36 rounded-3xl transition duration-200 ease-in-out bg-zinc-800/80 hover:bg-zinc-800 hover:text-white text-zinc-300"
         >
@@ -72,7 +72,7 @@
       </a>
 
       <!-- Item -->
-      <a href="case-study.html" class="overflow-hidden group">
+      <a href="#" class="overflow-hidden group">
         <div
           class="flex justify-center items-center w-full h-36 rounded-3xl transition duration-200 ease-in-out bg-zinc-800/80 hover:bg-zinc-800 hover:text-white text-zinc-300"
         >
@@ -100,7 +100,7 @@
       </a>
 
       <!-- Item -->
-      <a href="case-study.html" class="overflow-hidden group">
+      <a href="#" class="overflow-hidden group">
         <div
           class="flex justify-center items-center w-full h-36 rounded-3xl transition duration-200 ease-in-out bg-zinc-800/80 hover:bg-zinc-800 hover:text-white text-zinc-300"
         >
@@ -177,7 +177,7 @@
       </a>
 
       <!-- Item -->
-      <a href="case-study.html" class="overflow-hidden group">
+      <a href="#" class="overflow-hidden group">
         <div
           class="flex justify-center items-center w-full h-36 rounded-3xl transition duration-200 ease-in-out bg-zinc-800/80 hover:bg-zinc-800 hover:text-white text-zinc-300"
         >
@@ -196,7 +196,7 @@
       </a>
 
       <!-- Item -->
-      <a href="case-study.html" class="overflow-hidden group">
+      <a href="#" class="overflow-hidden group">
         <div
           class="flex justify-center items-center w-full h-36 rounded-3xl transition duration-200 ease-in-out bg-zinc-800/80 hover:bg-zinc-800 hover:text-white text-zinc-300"
         >

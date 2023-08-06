@@ -11,32 +11,32 @@
 
       <div class="hidden md:flex justify-between items-center w-1/2">
         <a
-          href="./product"
+          href="#"
           class="text-sm w-auto block py-2 px-5 rounded-full transition duration-200 ease-in-out sm:inline-block hover:text-cyan-200"
         >
           Product
         </a>
         <a
-          href="./features"
+          href="#"
           class="text-sm w-auto block py-2 px-5 rounded-full transition duration-200 ease-in-out sm:inline-block hover:text-cyan-200"
         >
           Features
         </a>
         <a
-          href="./pricing"
+          href="#"
           class="text-sm w-auto block py-2 px-5 rounded-full transition duration-200 ease-in-out sm:inline-block hover:text-cyan-200"
         >
           Pricing
         </a>
 
         <a
-          href="./clients"
+          href="#"
           class="text-sm w-auto text-dark-300 block py-2 px-5 rounded-full transition duration-200 ease-in-out sm:inline-block hover:text-cyan-200"
         >
           Customers
         </a>
         <a
-          href="./company"
+          href="#"
           class="text-sm w-auto text-dark-300 block py-2 px-5 rounded-full transition duration-200 ease-in-out sm:inline-block hover:text-cyan-200"
         >
           Company
