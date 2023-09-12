@@ -912,9 +912,9 @@ video {
   --tw-border-opacity: 0.75;
 }
 
-.bg-\[\#1e1e1e\] {
+.bg-\[\#1c1c1e\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 30 30 / var(--tw-bg-opacity));
+  background-color: rgb(28 28 30 / var(--tw-bg-opacity));
 }
 
 .bg-zinc-700 {
