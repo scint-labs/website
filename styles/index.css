@@ -930,8 +930,8 @@ video {
   background-color: rgb(24 24 27 / 0.2);
 }
 
-.bg-\[url\(\{FeaturedWorkImg01\}\)\] {
-  background-image: url({FeaturedWorkImg01});
+.bg-\[url\(\'images\/featured-work-image-01\.jpg\'\)\] {
+  background-image: url('images/featured-work-image-01.jpg');
 }
 
 .bg-gradient-to-b {
