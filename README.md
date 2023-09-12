@@ -1,3 +1,5 @@
-# buftype.com
+# Scint
 
-- [ ] Do some things
+``` bash
+tailwindcss -i static/styles/tailwind.css -o static/styles/index.css --watch
+```
