@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "Scint Website"
+version = "0.1.0"
+description = "Scint Website"
+authors = ["Tim Kaechle <timothy.kaechle@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.101.1"
+pytailwindcss = "^0.2.0"
+uvicorn = "^0.23.2"
+jinja2 = "^3.1.2"
+markdown = "^3.4.4"
+python-frontmatter = "^1.0.0"
+pygments = "^2.16.1"
+frontmatter = "^3.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
