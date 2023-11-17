@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="w-screen h-screen relative bg-[#1c1c1e]">
+<html lang="en" class="w-screen h-screen relative bg-[#0B1113]">
 
 <head>
     <meta charset="UTF-8" />
@@ -18,7 +18,8 @@
     <meta name="viewport" content="width=device-width" />
 </head>
 
-<body class="w-full">
+<body class="w-full"
+    style="background: url('/images/bg.png'); background-position:top center; background-size:contain; background-repeat:no-repeat;">
     <main>
         <div class="app w-full mx-auto">
             <!-- header -->
@@ -29,8 +30,8 @@
             <section id="hero" hx-get="templates/hero.html" hx-trigger="load" class="max-w-screen-xl mx-auto">
             </section>
 
-            <!-- what we do -->
-            <section id="process" hx-get="templates/what-we-do.html" hx-trigger="load"
+            <!-- projects -->
+            <section id="process" hx-get="templates/projects.html" hx-trigger="load"
                 class="max-w-screen-xl mx-auto mb-48">
             </section>
 
