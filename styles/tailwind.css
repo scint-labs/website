@@ -5,3 +5,7 @@
 :root {
     color-scheme: light dark;
 }
+
+ion-icon {
+    font-size: 64px;
+}
