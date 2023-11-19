@@ -34,19 +34,14 @@ async def read_root(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 
-@app.get("/product")
+@app.get("/projects")
 async def read_root(request: Request):
-    return templates.TemplateResponse("product.html", {"request": request})
+    return templates.TemplateResponse("projects.html", {"request": request})
 
 
-@app.get("/features")
+@app.get("/philosophy")
 async def read_root(request: Request):
-    return templates.TemplateResponse("features.html", {"request": request})
-
-
-@app.get("/company")
-async def read_root(request: Request):
-    return templates.TemplateResponse("company.html", {"request": request})
+    return templates.TemplateResponse("philosophy.html", {"request": request})
 
 
 @app.get("/blog")
@@ -54,6 +49,6 @@ async def read_root(request: Request):
     return templates.TemplateResponse("blog.html", {"request": request})
 
 
-@app.get("/get-started")
+@app.get("/contact")
 async def read_root(request: Request):
-    return templates.TemplateResponse("get-started.html", {"request": request})
+    return templates.TemplateResponse("contact.html", {"request": request})
