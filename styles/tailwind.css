@@ -3,9 +3,129 @@
 @tailwind utilities;
 
 :root {
-    color-scheme: light dark;
+  color-scheme: light dark;
 }
 
 ion-icon {
-    font-size: 64px;
+  font-size: 64px;
+}
+
+/* article typography */
+article {
+  p {
+    @apply my-6 text-lg;
+  }
+
+  h1 {
+    @apply text-7xl font-bold mb-4;
+  }
+
+  h2 {
+    @apply text-5xl font-bold mb-8 mt-14;
+  }
+
+  h3 {
+    @apply text-4xl font-semibold mb-8 mt-14;
+  }
+
+  h4 {
+    @apply text-3xl font-semibold mb-8 mt-14;
+  }
+
+  code {
+    @apply my-8;
+  }
+}
+
+/* article syntax highlighting */
+
+pre {
+  @apply leading-relaxed text-sm;
+}
+
+td.linenos .normal {
+  color: inherit;
+  background-color: transparent;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+span.linenos {
+  color: inherit;
+  background-color: transparent;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+td.linenos .special {
+  color: #000000;
+  background-color: #ffffc0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+span.linenos.special {
+  color: #000000;
+  background-color: #ffffc0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.codehilite {
+  @apply bg-[#1a1a1c] px-4 py-3 rounded-xl text-[#cfcfcf];
+}
+
+.codehilite .s,
+.codehilite .sa,
+.codehilite .sb,
+.codehilite .sc,
+.codehilite .dl,
+.codehilite .sd,
+.codehilite .s2,
+.codehilite .se,
+.codehilite .sh,
+.codehilite .si,
+.codehilite .sx,
+.codehilite .sr,
+.codehilite .s1,
+.codehilite .ss {
+  @apply text-[#b6d6ea];
+}
+
+.codehilite .hll {
+  background-color: #1a1a1a;
+}
+
+.codehilite .c,
+.codehilite .c1,
+.codehilite .c2,
+.codehilite .ch,
+.codehilite .cm,
+.codehilite .cp,
+.codehilite .cpf {
+  @apply text-[#656469] italic font-light;
+}
+
+.codehilite .err {
+  border: 1px solid #d0738e;
+}
+
+.codehilite .gr,
+.codehilite .gd {
+  @apply text-[#d0738e];
+}
+
+.codehilite .n,
+.codehilite .nb {
+  @apply text-[#f3c699] font-thin;
+}
+
+.codehilite .k,
+.codehilite .nf,
+.codehilite .nd {
+  @apply text-[#e4a4a2];
+}
+
+.codehilite .mi {
+  @apply text-[#dfbfd0];
 }

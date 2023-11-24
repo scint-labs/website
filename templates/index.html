@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scint</title>
     <script src="https://unpkg.com/htmx.org@1.9.4"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,33 +23,16 @@
     style="background: url('/images/bg.png'); background-position:top center; background-size:contain; background-repeat:no-repeat;">
     <main class="relative">
         <div class="app w-full mx-auto">
-            <header id="header" hx-get="templates/header.html" hx-trigger="load" class="max-w-screen-xl mx-auto mb-14">
-            </header>
-
-            <section id="hero" hx-get="templates/hero.html" hx-trigger="load" class="max-w-screen-xl mx-auto">
-            </section>
-
-            <section id="process" hx-get="templates/projects.html" hx-trigger="load"
-                class="max-w-screen-xl mx-auto mb-48">
-            </section>
-
-            <section id="process" hx-get="templates/process.html" hx-trigger="load"
-                class="max-w-screen-xl mx-auto mb-48">
-            </section>
-
-            <section id="featured-work" hx-get="templates/featured-work.html" hx-trigger="load"
-                class="max-w-screen-xl mx-auto mb-48">
-            </section>
-
-            <section id="call-to-action" hx-get="templates/call-to-action.html" hx-trigger="load"
-                class="max-w-screen-xl mx-auto mb-48">
-            </section>
-
-            <footer id="footer" hx-get="templates/footer.html" hx-trigger="load" class="max-w-screen-xl mx-auto pb-14">
-            </footer>
+            {% include 'header.html' %}
+            {% include 'hero.html' %}
+            {% include 'projects.html' %}
+            {% include 'process.html' %}
+            {% include 'use-cases.html' %}
+            {% include 'blog-preview.html' %}
+            {% include 'call-to-action.html' %}
+            {% include 'footer.html' %}
         </div>
     </main>
 </body>
-<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
 
 </html>

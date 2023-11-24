@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "Scint Website"
-version = "0.1.0"
-description = "Scint Website"
+name = "Scint Labs Website"
+version = "0.2.0"
+description = "Scint Labs Website"
 authors = ["Tim Kaechle <timothy.kaechle@me.com>"]
 readme = "README.md"
 
@@ -13,8 +13,9 @@ uvicorn = "^0.24.0.post1"
 jinja2 = "^3.1.2"
 markdown = "^3.5.1"
 python-frontmatter = "^1.0.1"
-pygments = "^2.17.1"
-frontmatter = "^3.0.7"
+pygments = "^2.17.2"
+watchdog = "^3.0.0"
+pyyaml = "^6.0.1"
 
 
 [build-system]
