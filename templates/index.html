@@ -32,7 +32,6 @@
         {% include 'use-cases.html' %}
         {% include 'call-to-action.html' %}
 
-
     </main>
 
     {% include 'chat-overlay.html' %}
@@ -52,6 +51,27 @@
                 overlay.classList.remove('opacity-100', 'visible')
             })
         })
+
+
+        document.addEventListener('keydown', function (event) {
+            if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
+                event.preventDefault()
+                const chatInput = document.getElementById('input');
+
+                if (chatInput) {
+                    chatInput.focus()
+                }
+            }
+
+            if (event.key === 'Escape') {
+                const chatInput = document.getElementById('input');
+
+                if (chatInput === document.activeElement) {
+                    chatInput.blur()
+                }
+            }
+        });
+
     </script>
 </body>
 
