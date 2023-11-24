@@ -10,6 +10,22 @@ ion-icon {
   font-size: 64px;
 }
 
+section {
+  @apply mb-64;
+}
+
+/* chat overlay */
+/* #chat-overlay {
+  transition: opacity 0.5s ease, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#chat-overlay.visible {
+  opacity: 1;
+  visibility: visible;
+} */
+
 /* article typography */
 article {
   p {

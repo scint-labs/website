@@ -1,4 +1,4 @@
-<section id="blog-preview" class="max-w-screen-xl mx-auto mb-48">
+<section id="blog-preview">
     <h3 class="text-4xl text-[#a09d9d] drop-shadow-xl">
         Latest posts
     </h3>
@@ -14,7 +14,7 @@
         <div class="grid grid-cols-1 w-full">
             <a href="/blog/{{ post.slug }}">
                 <p
-                    class="bg-gradient-to-br from-[#ea4960] to-[#dd7037] text-transparent bg-clip-text text-xs font-medium uppercase w-fit mb-2">
+                    class="bg-gradient-to-br from-[#ea4960] to-[#dd7037] text-transparent bg-clip-text text-sm font-medium uppercase w-fit mb-2">
                     {{ post.metadata.category | default('Category') }}
                 </p>
             </a>

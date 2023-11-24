@@ -19,20 +19,40 @@
     <meta name="viewport" content="width=device-width" />
 </head>
 
-<body class="relative w-full"
-    style="background: url('/images/bg.png'); background-position:top center; background-size:contain; background-repeat:no-repeat;">
-    <main class="relative">
-        <div class="app w-full mx-auto">
-            {% include 'header.html' %}
-            {% include 'hero.html' %}
-            {% include 'projects.html' %}
-            {% include 'process.html' %}
-            {% include 'use-cases.html' %}
-            {% include 'blog-preview.html' %}
-            {% include 'call-to-action.html' %}
-            {% include 'footer.html' %}
-        </div>
+<body class="relative w-full">
+
+    {% include 'header.html' %}
+
+    <main class="relative w-full max-w-6xl mx-auto">
+
+        {% include 'hero.html' %}
+        {% include 'projects.html' %}
+        {% include 'blog-preview.html' %}
+        {% include 'process.html' %}
+        {% include 'use-cases.html' %}
+        {% include 'call-to-action.html' %}
+
+
     </main>
+
+    {% include 'chat-overlay.html' %}
+    {% include 'footer.html' %}
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const inputBar = document.getElementById('input')
+            const overlay = document.getElementById('chat-overlay')
+
+            inputBar.addEventListener('focus', () => {
+                overlay.classList.remove('opacity-0', 'invisible')
+                overlay.classList.add('opacity-100', 'visible')
+            })
+
+            inputBar.addEventListener('blur', () => {
+                overlay.classList.add('opacity-0', 'invisible')
+                overlay.classList.remove('opacity-100', 'visible')
+            })
+        })
+    </script>
 </body>
 
 </html>
