@@ -36,6 +36,7 @@
 
     {% include 'chat-overlay.html' %}
     {% include 'footer.html' %}
+
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
             const inputBar = document.getElementById('input')
@@ -56,7 +57,7 @@
         document.addEventListener('keydown', function (event) {
             if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
                 event.preventDefault()
-                const chatInput = document.getElementById('input');
+                const chatInput = document.getElementById('input')
 
                 if (chatInput) {
                     chatInput.focus()
@@ -71,6 +72,60 @@
                 }
             }
         });
+        document.getElementById('input').addEventListener('keypress', function (event) {
+            if (event.key === 'Enter') {
+                event.preventDefault()
+                sendMessage(this.value)
+                this.value = ''
+            }
+        });
+
+        function sendMessage(messageContent) {
+            const requestPayload = {
+                message: {
+                    role: "user",
+                    content: messageContent,
+                    name: "WebsiteUser"
+                }
+            }
+
+            fetch('http://localhost:8080/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(requestPayload),
+            })
+                .then(response => response.text())
+                .then(text => JSON.parse(text))
+                .then(data => {
+                    if (data && data.content) {
+                        displaySentMessage(messageContent)
+                        displayReceivedMessage(data.content)
+                    } else {
+                        console.error('Unexpected response format:', data)
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function displaySentMessage(message) {
+            const messagesContainer = document.getElementById('messages')
+            const messageElement = document.createElement('div')
+            messageElement.classList = "w-full bg-gradient-to-b from-[#39383f] to-[#2c2c30] border border-[#4d4c50] drop-shadow-xl px-5 py-4 rounded-3xl text-lg"
+            messageElement.innerHTML = `${message}`
+            messagesContainer.appendChild(messageElement)
+        }
+
+        function displayReceivedMessage(message) {
+            const messagesContainer = document.getElementById('messages')
+            const messageElement = document.createElement('div')
+            messageElement.classList = "w-full bg-gradient-to-b from-[#5f2f2d] to-[#51202c] border border-[#774847] drop-shadow-xl px-5 py-4 rounded-3xl text-lg"
+            messageElement.innerHTML = `${message}`
+            messagesContainer.appendChild(messageElement)
+        }
 
     </script>
 </body>
